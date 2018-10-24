@@ -1,12 +1,14 @@
-# Algorithm Challenge
+# Web Basics Challenge
 
-Welcome to my series on algorithm challenges. Many companies will test you on your algorithm and data type knowledge. So if you’re going for an interview, make sure you practice!
+Welcome! In this repo, you will find the **solutions** to my web basics challenges.
 
-In this repo, you will find the **solutions** to my algorithm challenges 
+Web Basics is a series on essential programming topics every web developer should absolutely know! The challenge is part of my Web Basics Series that I started on [my Instagram](https://www.instagram.com/SamanthaMing/).
 
-## Web Basics
+Every lesson, I'll introduce a few important web development methods and provide examples on how to use them. At the end, you'll learned how to apply this knowledge in solving a web basics challenge. Exciting, right! 😄
 
-This Algorithm Challenge is part of my Web Basics Series that I started on [my Instagram](https://www.instagram.com/SamanthaMing/). Web Basics is a series on essential programming topics every web developer should absolutely know!
+## Algorithm Challenges
+
+Many companies will test you on your algorithm and data type knowledge. So if you’re going for an interview, make sure you practice!
 
 ## Code Challenge Websites
 
