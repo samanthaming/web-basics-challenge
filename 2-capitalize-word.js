@@ -47,3 +47,12 @@ function capitalize4(word) {
   const loweredCase = word.toLowerCase();
   return word[0].toUpperCase() + loweredCase.slice(1);
 }
+
+// ============================
+// Using Rest parameter
+// ============================
+
+function capitalize5([first, ...rest]) {
+  return first.toUpperCase() +
+    rest.join('').toLowerCase();
+}
