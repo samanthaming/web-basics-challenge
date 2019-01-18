@@ -14,26 +14,9 @@
  *
  */
 
+// ✅  Solution: github.com/samanthaming/web-basics-challenge
 
-/** Title Case a Word
- *
- * Implement a function that takes a word
- *  and return the same word in title case
- *
- * titleCase('hello')
- * Output: 'Hello'
- *
- * titleCase('GREAT')
- * Output: 'Great'
- *
- * titleCase('aWESOME')
- * Output: 'Awesome'
- *
- */
-
-// ✅  Solution: github.com/samanthaming/algorithm-challenge
-
-function titleCase(word) {
+function capitalize(word) {
   return (
     word.charAt(0).toUpperCase() // Uppercase the first letter
     + word.slice(1).toLowerCase() // Lowercase the rest of the letters
@@ -44,13 +27,23 @@ function titleCase(word) {
 // Using Bracket Notation
 // ============================
 
-function titleCase(word) {
+function capitalize2(word) {
   return word[0].toUpperCase() + word.slice(1).toLowerCase();
 }
 
-/** RESOURCE
- *
- * charAt vs []
- * https://stackoverflow.com/questions/5943726/string-charatx-or-stringx
- *
- */
+// ============================
+// Using Substring
+// ============================
+
+function capitalize3(word) {
+  return word[0].toUpperCase() + word.substring(1).toLowerCase();
+}
+
+// ============================
+// Using 2 steps
+// ============================
+
+function capitalize4(word) {
+  const loweredCase = word.toLowerCase();
+  return word[0].toUpperCase() + loweredCase.slice(1);
+}

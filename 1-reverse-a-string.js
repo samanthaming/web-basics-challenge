@@ -11,7 +11,7 @@
  *
  */
 
-// ✅  Solution: github.com/samanthaming/algorithm-challenge
+// ✅  Solution: github.com/samanthaming/web-basics-challenge
 // ✅  Try this challenge on freeCodeCamp.org
 
 function reverseString(str) {
@@ -46,4 +46,12 @@ function reverseString3(str) {
   }
 
   return result;
+}
+
+// ============================
+// Using sort
+// ============================
+
+function reverseString4(str) {
+  return str.split('').sort(() => 1).join('');
 }
