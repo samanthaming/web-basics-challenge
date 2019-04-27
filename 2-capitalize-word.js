@@ -56,3 +56,14 @@ function capitalize5([first, ...rest]) {
   return first.toUpperCase() +
     rest.join('').toLowerCase();
 }
+
+// ============================
+// Using Map
+// ============================
+
+function capitalize6(word) {
+  return word
+    .split('')
+    .map((letter, index) => index ? letter.toLowerCase() : letter.toUpperCase())
+    .join('')
+}
