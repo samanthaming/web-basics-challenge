@@ -53,5 +53,5 @@ function reverseString3(str) {
 // ============================
 
 function reverseString4(str) {
-  return str.split('').sort(() => 1).join('');
+  return str.split('').sort(() => -1).join('');
 }
